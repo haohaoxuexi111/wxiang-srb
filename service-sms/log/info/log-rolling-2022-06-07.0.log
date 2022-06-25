@@ -1,0 +1,11 @@
+2022-06-07 14:48:25 [INFO ] StartupInfoLogger.java:55 com.wxiang.srb.sms.ServiceSmsApplication Starting ServiceSmsApplication using Java 1.8.0_201 on LAPTOP-P5DVF2MH with PID 30076 (C:\Users\Xiangtai\IdeaProjects\wxiang-srb\service-sms\target\classes started by Xiangtai in C:\Users\Xiangtai\IdeaProjects\wxiang-srb)
+2022-06-07 14:48:25 [INFO ] SpringApplication.java:663 com.wxiang.srb.sms.ServiceSmsApplication The following profiles are active: dev
+2022-06-07 14:48:28 [INFO ] StartupInfoLogger.java:61 com.wxiang.srb.sms.ServiceSmsApplication Started ServiceSmsApplication in 4.66 seconds (JVM running for 6.858)
+2022-06-07 15:07:52 [INFO ] StartupInfoLogger.java:55 com.wxiang.srb.sms.Utils.UtilsTest Starting UtilsTest using Java 1.8.0_201 on LAPTOP-P5DVF2MH with PID 11652 (started by Xiangtai in C:\Users\Xiangtai\IdeaProjects\wxiang-srb\service-sms)
+2022-06-07 15:07:52 [INFO ] SpringApplication.java:663 com.wxiang.srb.sms.Utils.UtilsTest The following profiles are active: dev
+2022-06-07 15:07:58 [INFO ] StartupInfoLogger.java:61 com.wxiang.srb.sms.Utils.UtilsTest Started UtilsTest in 6.94 seconds (JVM running for 9.221)
+2022-06-07 15:41:14 [INFO ] StartupInfoLogger.java:55 com.wxiang.srb.sms.Utils.UtilsTest Starting UtilsTest using Java 1.8.0_201 on LAPTOP-P5DVF2MH with PID 34020 (started by Xiangtai in C:\Users\Xiangtai\IdeaProjects\wxiang-srb\service-sms)
+2022-06-07 15:41:14 [INFO ] SpringApplication.java:663 com.wxiang.srb.sms.Utils.UtilsTest The following profiles are active: dev
+2022-06-07 15:41:21 [INFO ] StartupInfoLogger.java:61 com.wxiang.srb.sms.Utils.UtilsTest Started UtilsTest in 7.389 seconds (JVM running for 9.352)
+2022-06-07 18:56:10 [INFO ] StartupInfoLogger.java:55 com.wxiang.srb.sms.ServiceSmsApplication Starting ServiceSmsApplication using Java 1.8.0_201 on LAPTOP-P5DVF2MH with PID 34200 (C:\Users\Xiangtai\IdeaProjects\wxiang-srb\service-sms\target\classes started by Xiangtai in C:\Users\Xiangtai\IdeaProjects\wxiang-srb)
+2022-06-07 18:56:10 [INFO ] SpringApplication.java:663 com.wxiang.srb.sms.ServiceSmsApplication The following profiles are active: dev

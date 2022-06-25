@@ -1,0 +1,21 @@
+2022-04-22 18:07:00 [INFO ] StartupInfoLogger.java:55 com.wxiang.srb.core.ServiceCoreApplication Starting ServiceCoreApplication using Java 1.8.0_201 on LAPTOP-P5DVF2MH with PID 6344 (C:\Users\Xiangtai\IdeaProjects\wxiang-srb\service-core\target\classes started by Xiangtai in C:\Users\Xiangtai\IdeaProjects\wxiang-srb)
+2022-04-22 18:07:00 [INFO ] SpringApplication.java:663 com.wxiang.srb.core.ServiceCoreApplication The following profiles are active: dev
+2022-04-22 18:07:06 [INFO ] StartupInfoLogger.java:61 com.wxiang.srb.core.ServiceCoreApplication Started ServiceCoreApplication in 6.524 seconds (JVM running for 8.287)
+2022-04-22 18:07:20 [INFO ] AdminIntegralGradeController.java:41 com.wxiang.srb.core.controller.admin.AdminIntegralGradeController hello, this is info level
+2022-04-22 18:07:20 [WARN ] AdminIntegralGradeController.java:42 com.wxiang.srb.core.controller.admin.AdminIntegralGradeController hello, this is warn level
+2022-04-22 18:07:20 [ERROR] AdminIntegralGradeController.java:43 com.wxiang.srb.core.controller.admin.AdminIntegralGradeController hello, this is error level
+2022-04-22 19:12:30 [INFO ] StartupInfoLogger.java:55 com.wxiang.srb.core.ServiceCoreApplication Starting ServiceCoreApplication using Java 1.8.0_201 on LAPTOP-P5DVF2MH with PID 9968 (C:\Users\Xiangtai\IdeaProjects\wxiang-srb\service-core\target\classes started by Xiangtai in C:\Users\Xiangtai\IdeaProjects\wxiang-srb)
+2022-04-22 19:12:30 [INFO ] SpringApplication.java:663 com.wxiang.srb.core.ServiceCoreApplication The following profiles are active: dev
+2022-04-22 19:12:36 [INFO ] StartupInfoLogger.java:61 com.wxiang.srb.core.ServiceCoreApplication Started ServiceCoreApplication in 6.675 seconds (JVM running for 8.574)
+2022-04-22 19:12:54 [INFO ] AdminIntegralGradeController.java:41 com.wxiang.srb.core.controller.admin.AdminIntegralGradeController hello, this is info level
+2022-04-22 19:12:54 [WARN ] AdminIntegralGradeController.java:42 com.wxiang.srb.core.controller.admin.AdminIntegralGradeController hello, this is warn level
+2022-04-22 19:12:54 [ERROR] AdminIntegralGradeController.java:43 com.wxiang.srb.core.controller.admin.AdminIntegralGradeController hello, this is error level
+2022-04-24 10:49:52 [ERROR] AdminIntegralGradeController.java:43 com.wxiang.srb.core.controller.admin.AdminIntegralGradeController hello, this is error level
+2022-04-24 10:49:54 [ERROR] AdminIntegralGradeController.java:43 com.wxiang.srb.core.controller.admin.AdminIntegralGradeController hello, this is error level
+2022-04-24 10:49:56 [ERROR] AdminIntegralGradeController.java:43 com.wxiang.srb.core.controller.admin.AdminIntegralGradeController hello, this is error level
+2022-04-24 10:49:57 [ERROR] AdminIntegralGradeController.java:43 com.wxiang.srb.core.controller.admin.AdminIntegralGradeController hello, this is error level
+2022-04-24 10:49:58 [ERROR] AdminIntegralGradeController.java:43 com.wxiang.srb.core.controller.admin.AdminIntegralGradeController hello, this is error level
+2022-04-24 10:49:58 [ERROR] AdminIntegralGradeController.java:43 com.wxiang.srb.core.controller.admin.AdminIntegralGradeController hello, this is error level
+2022-04-24 13:43:39 [INFO ] StartupInfoLogger.java:55 com.wxiang.srb.core.ServiceCoreApplication Starting ServiceCoreApplication using Java 1.8.0_201 on LAPTOP-P5DVF2MH with PID 20888 (C:\Users\Xiangtai\IdeaProjects\wxiang-srb\service-core\target\classes started by Xiangtai in C:\Users\Xiangtai\IdeaProjects\wxiang-srb)
+2022-04-24 13:43:39 [INFO ] SpringApplication.java:663 com.wxiang.srb.core.ServiceCoreApplication The following profiles are active: dev
+2022-04-24 13:43:45 [INFO ] StartupInfoLogger.java:61 com.wxiang.srb.core.ServiceCoreApplication Started ServiceCoreApplication in 6.833 seconds (JVM running for 8.782)

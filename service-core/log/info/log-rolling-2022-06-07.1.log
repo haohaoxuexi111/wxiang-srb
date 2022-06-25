@@ -1,0 +1,8 @@
+2022-06-07 14:17:35 [WARN ] AdminIntegralGradeController.java:42 com.wxiang.srb.core.controller.admin.AdminIntegralGradeController hello, this is warn level
+2022-06-07 14:17:35 [ERROR] AdminIntegralGradeController.java:43 com.wxiang.srb.core.controller.admin.AdminIntegralGradeController hello, this is error level
+2022-06-07 14:17:49 [INFO ] AdminIntegralGradeController.java:41 com.wxiang.srb.core.controller.admin.AdminIntegralGradeController hello, this is info level
+2022-06-07 14:17:49 [WARN ] AdminIntegralGradeController.java:42 com.wxiang.srb.core.controller.admin.AdminIntegralGradeController hello, this is warn level
+2022-06-07 14:17:49 [ERROR] AdminIntegralGradeController.java:43 com.wxiang.srb.core.controller.admin.AdminIntegralGradeController hello, this is error level
+2022-06-07 14:17:52 [INFO ] AdminIntegralGradeController.java:41 com.wxiang.srb.core.controller.admin.AdminIntegralGradeController hello, this is info level
+2022-06-07 14:17:52 [WARN ] AdminIntegralGradeController.java:42 com.wxiang.srb.core.controller.admin.AdminIntegralGradeController hello, this is warn level
+2022-06-07 14:17:52 [ERROR] AdminIntegralGradeController.java:43 com.wxiang.srb.core.controller.admin.AdminIntegralGradeController hello, this is error level

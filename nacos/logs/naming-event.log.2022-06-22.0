@@ -1,0 +1,24 @@
+2022-06-22 14:56:11,408 INFO DEFAULT_GROUP@@service-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.74.1:80:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-06-22 14:56:11,414 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-gateway, ips: 192.168.74.1:80_true,
+
+2022-06-22 15:26:41,254 INFO DEFAULT_GROUP@@service-core {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.74.1:8110:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-06-22 15:26:41,254 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-core, ips: 192.168.74.1:8110_true,
+
+2022-06-22 15:40:11,534 INFO {POS} {IP-DISABLED} valid: 192.168.74.1:8110@DEFAULT@DEFAULT_GROUP@@service-core, region: unknown, msg: client timeout after 15000, last beat: 1655883592931
+
+2022-06-22 15:40:19,064 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-core, ips: 192.168.74.1:8110_false,
+
+2022-06-22 15:40:24,065 INFO service: DEFAULT_GROUP@@service-core {POS} {IP-ENABLED} valid: 192.168.74.1:8110@DEFAULT, region: unknown, msg: client beat ok
+
+2022-06-22 16:55:43,999 INFO {POS} {IP-DISABLED} valid: 192.168.74.1:8110@DEFAULT@DEFAULT_GROUP@@service-core, region: unknown, msg: client timeout after 15000, last beat: 1655888128931
+
+2022-06-22 16:55:59,352 INFO DEFAULT_GROUP@@service-core {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.74.1:8110:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-06-22 16:55:59,352 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-core, ips: 
+
+2022-06-22 16:55:59,418 INFO DEFAULT_GROUP@@service-core {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.74.1:8110:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-06-22 16:55:59,418 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-core, ips: 192.168.74.1:8110_true,
+

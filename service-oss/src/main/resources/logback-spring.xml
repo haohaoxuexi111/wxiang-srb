@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configuration>
+
+    <!-- 每个logger都关联到logger上下文，默认上下文名称为default，可以使用<contextName>设置成其它名字，用于区分不同的应用程序 -->
+    <contextName>wxiangSrb</contextName>
+
+    <!-- 日志输出目录 -->
+    <property name="log.path" value="C:/Users/Xiangtai/IdeaProjects/wxiang-srb/service-oss/log"/>
+
+    <!-- 控制台日志格式：彩色日志 -->
+    <property name="CONSOLE_LOG_PATTERN"
+              value="%yellow(%date{yyyy-MM-dd HH:mm:ss}) %highlight([%-5level]) %green(%logger) %msg%n"/>
+
+    <!-- 文件日志格式 -->
+    <property name="FILE_LOG_PATTERN"
+              value="%date{yyyy-MM-dd HH:mm:ss} [%-5level] %file:%line %logger %msg%n"/>
+
+    <!-- 编码 -->
+    <property name="ENCODING"
+              value="UTF-8"/>
+
+
+    <!-- 控制台日志 -->
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>${CONSOLE_LOG_PATTERN}</pattern>
+            <charset>${ENCODING}</charset>
+        </encoder>
+    </appender>
+
+    <!-- 文件日志 -->
+    <appender name="FILE" class="ch.qos.logback.core.FileAppender">
+        <file>${log.path}/log.log</file>
+        <append>true</append>   <!-- 日志插入到文件末尾 -->
+        <encoder>
+            <pattern>${FILE_LOG_PATTERN}</pattern>
+            <charset>${ENCODING}</charset>
+        </encoder>
+    </appender>
+
+    <!-- 配置滚动日志 -->
+    <appender name="ROLLING_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <!-- 要区别于其它的 appender 中的文件的名字，每天的日志先记录到实时日志log-rolling.log，到了当天的 24:00或者达到了1KB(maxFileSize)，则产生当天的log-rolling-%d{yyyy-MM-dd}.log文件，并产生下一天的 log-rolling.log 文件 -->
+        <file>${log.path}/log-rolling.log</file>
+        <encoder>
+            <pattern>${FILE_LOG_PATTERN}</pattern>
+            <charset>${ENCODING}</charset>
+        </encoder>
+
+        <!-- 设置滚动日志的滚动策略 -->
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- 日志归档路径以及策略 -->
+            <fileNamePattern>${log.path}/info/log-rolling-%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+            <!-- 归档日志 文件保留的最大数量，如果一天一个文件的话，就是保留近15天的日志文件 -->
+            <maxHistory>15</maxHistory>
+
+            <timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+                <maxFileSize>1KB</maxFileSize>  <!-- 若当天日志文件大于1KB则再生成一个文件 命名为 log-rolling-%d{yyyy-MM-dd}.(%i+1).log -->
+            </timeBasedFileNamingAndTriggeringPolicy>
+        </rollingPolicy>
+    </appender>
+
+
+    <!-- 日志记录器 springProfile 里面配了，这里不用配了 -->
+    <!--<logger name="com.wxiang" level="INFO">
+        <appender-ref ref="CONSOLE"/>  &lt;!&ndash; 将appender添加到logger中 &ndash;&gt;
+        <appender-ref ref="FILE"/>
+    </logger>-->
+
+    <!-- 多环境配置：开发环境和测试环境 -->
+    <springProfile name="dev,test">
+        <logger name="com.wxiang" level="INFO">
+            <appender-ref ref="CONSOLE"/>
+            <appender-ref ref="ROLLING_FILE"/>
+        </logger>
+    </springProfile>
+
+    <!-- 生产环境 -->
+    <springProfile name="prod">
+        <logger name="com.wxiang" level="ERROR">
+            <appender-ref ref="CONSOLE"/>
+            <appender-ref ref="ROLLING_FILE"/>
+        </logger>
+    </springProfile>
+</configuration>

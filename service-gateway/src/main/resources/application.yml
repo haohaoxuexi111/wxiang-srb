@@ -1,0 +1,32 @@
+# 使用网关代替nginx之后，没配置routes之前，通过网关调用服务的访问地址变成：http://网关地址:网关端口/service名称/controller路由地址
+# 例如：http://localhost/service-core/admin/core/userLoginRecord/listTop50/9
+server:
+  port: 80
+
+spring:
+  profiles:
+    active: dev  # 环境设置
+  application:
+    name: service-gateway  # 服务名
+
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848  # nacos服务地址
+    gateway:
+      discovery:
+        locator:
+          enabled: true  # gateway可以发现nacos中的微服务，并自动生成转发路由
+      routes:  # 配了这个之后，通过网关调用服务的访问访问变成：http://localhost/admin/core/userLoginRecord/listTop50/9
+        - id: service-core  # - 表示这是一个数组
+          uri: lb://service-core  # 以负载均衡的方式连接微服务
+          predicates:
+            - Path=/*/core/**  # 微服务对应的路径
+        - id: service-sms
+          uri: lb://service-sms
+          predicates:
+            - Path=/*/sms/**
+        - id: service-oss
+          uri: lb://service-oss
+          predicates:
+            - Path=/*/oss/**

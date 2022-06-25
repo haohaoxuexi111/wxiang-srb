@@ -1,0 +1,11 @@
+2022-06-19 21:12:57 [INFO ] DictServiceImpl.java:89 com.wxiang.srb.core.service.impl.DictServiceImpl 从数据库中查询数据列表
+2022-06-19 21:12:57 [INFO ] DictServiceImpl.java:102 com.wxiang.srb.core.service.impl.DictServiceImpl 将数据库中查询到的数据存入Redis
+2022-06-19 21:12:59 [INFO ] DictServiceImpl.java:89 com.wxiang.srb.core.service.impl.DictServiceImpl 从数据库中查询数据列表
+2022-06-19 21:12:59 [INFO ] DictServiceImpl.java:102 com.wxiang.srb.core.service.impl.DictServiceImpl 将数据库中查询到的数据存入Redis
+2022-06-19 21:13:06 [INFO ] DictServiceImpl.java:89 com.wxiang.srb.core.service.impl.DictServiceImpl 从数据库中查询数据列表
+2022-06-19 21:13:06 [INFO ] DictServiceImpl.java:102 com.wxiang.srb.core.service.impl.DictServiceImpl 将数据库中查询到的数据存入Redis
+2022-06-20 20:35:56 [INFO ] SpringApplication.java:655 com.wxiang.srb.core.ServiceCoreApplication The following profiles are active: dev
+2022-06-20 20:37:40 [INFO ] SpringApplication.java:655 com.wxiang.srb.core.ServiceCoreApplication The following profiles are active: dev
+2022-06-20 20:43:20 [INFO ] SpringApplication.java:655 com.wxiang.srb.core.ServiceCoreApplication The following profiles are active: dev
+2022-06-20 21:01:50 [INFO ] SpringApplication.java:655 com.wxiang.srb.core.ServiceCoreApplication The following profiles are active: dev
+2022-06-20 21:25:28 [INFO ] SpringApplication.java:655 com.wxiang.srb.core.ServiceCoreApplication The following profiles are active: dev

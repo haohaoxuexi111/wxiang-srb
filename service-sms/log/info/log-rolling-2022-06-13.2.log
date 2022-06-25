@@ -1,0 +1,6 @@
+2022-06-13 16:41:38 [INFO ] StartupInfoLogger.java:61 com.wxiang.srb.sms.ServiceSmsApplication Started ServiceSmsApplication in 5.429 seconds (JVM running for 7.646)
+2022-06-13 17:06:49 [INFO ] StartupInfoLogger.java:55 com.wxiang.srb.sms.ServiceSmsApplication Starting ServiceSmsApplication using Java 1.8.0_201 on LAPTOP-P5DVF2MH with PID 58908 (C:\Users\Xiangtai\IdeaProjects\wxiang-srb\service-sms\target\classes started by Xiangtai in C:\Users\Xiangtai\IdeaProjects\wxiang-srb)
+2022-06-13 17:06:49 [INFO ] SpringApplication.java:663 com.wxiang.srb.sms.ServiceSmsApplication The following profiles are active: dev
+2022-06-13 17:06:55 [INFO ] StartupInfoLogger.java:61 com.wxiang.srb.sms.ServiceSmsApplication Started ServiceSmsApplication in 6.897 seconds (JVM running for 9.522)
+2022-06-13 19:32:32 [INFO ] StartupInfoLogger.java:55 com.wxiang.srb.sms.ServiceSmsApplication Starting ServiceSmsApplication using Java 1.8.0_201 on LAPTOP-P5DVF2MH with PID 45752 (C:\Users\Xiangtai\IdeaProjects\wxiang-srb\service-sms\target\classes started by Xiangtai in C:\Users\Xiangtai\IdeaProjects\wxiang-srb)
+2022-06-13 19:32:32 [INFO ] SpringApplication.java:663 com.wxiang.srb.sms.ServiceSmsApplication The following profiles are active: dev

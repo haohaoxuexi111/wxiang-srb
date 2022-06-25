@@ -1,0 +1,6 @@
+2022-06-22 16:56:01 [INFO ] StartupInfoLogger.java:61 com.wxiang.srb.core.ServiceCoreApplication Started ServiceCoreApplication in 19.212 seconds (JVM running for 22.055)
+2022-06-22 16:59:12 [INFO ] RequestHelper.java:39 com.wxiang.srb.core.hfb.RequestHelper 加密前：999888|12|62000000000000000|建设银行|36000000000000000|13766816632|http://localhost/api/core/userBind/notify|张三|http://localhost:3000/user|1655888352497|9876543210
+2022-06-22 16:59:12 [INFO ] RequestHelper.java:41 com.wxiang.srb.core.hfb.RequestHelper 加密后：01b97b5ab33686cb59eba8f9b98d5b84
+2022-06-22 16:59:26 [INFO ] UserBindController.java:59 com.wxiang.srb.core.controller.api.UserBindController hfb账户绑定回调srb时携带的参数如下：{"agentUserId":"12","resultCode":"0001","sign":"a78cfdf49f80cf0b85bfd25ccd8d9f4d","bindCode":"5539b19db8cd4d6c873bebd664220c53","resultMsg":"成功","timestamp":"1655888365098"}
+2022-06-22 16:59:26 [INFO ] RequestHelper.java:39 com.wxiang.srb.core.hfb.RequestHelper 加密前：12|5539b19db8cd4d6c873bebd664220c53|0001|成功|1655888365098|9876543210
+2022-06-22 16:59:26 [INFO ] RequestHelper.java:41 com.wxiang.srb.core.hfb.RequestHelper 加密后：a78cfdf49f80cf0b85bfd25ccd8d9f4d

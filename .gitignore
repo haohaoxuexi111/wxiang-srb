@@ -1,0 +1,11 @@
+# Project exclude paths
+/aliyun-oss/target/
+/common/target/
+/font/nuxt-app/.nuxt/
+/font/nuxt-app/node_modules/
+/jwt/target/
+/service-base/target/
+/service-core/target/
+/service-gateway/target/
+/service-oss/target/
+/service-sms/target/

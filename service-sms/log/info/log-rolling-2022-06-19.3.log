@@ -1,0 +1,8 @@
+2022-06-19 17:12:05 [INFO ] StartupInfoLogger.java:61 com.wxiang.srb.sms.ServiceSmsApplication Started ServiceSmsApplication in 19.808 seconds (JVM running for 22.952)
+2022-06-19 19:40:28 [INFO ] SpringApplication.java:655 com.wxiang.srb.sms.ServiceSmsApplication The following profiles are active: dev
+2022-06-19 19:40:42 [INFO ] StartupInfoLogger.java:61 com.wxiang.srb.sms.ServiceSmsApplication Started ServiceSmsApplication in 20.533 seconds (JVM running for 23.706)
+2022-06-19 19:43:52 [DEBUG] Slf4jLogger.java:72 com.wxiang.srb.sms.client.CoreUserInfoClient [CoreUserInfoClient#checkMobileExist] ---> GET http://service-core/api/core/userInfo/checkMobile/13766816630 HTTP/1.1
+2022-06-19 19:43:52 [DEBUG] Slf4jLogger.java:72 com.wxiang.srb.sms.client.CoreUserInfoClient [CoreUserInfoClient#checkMobileExist] ---> END HTTP (0-byte body)
+2022-06-19 19:43:54 [DEBUG] Slf4jLogger.java:72 com.wxiang.srb.sms.client.CoreUserInfoClient [CoreUserInfoClient#checkMobileExist] <--- HTTP/1.1 200 (1715ms)
+2022-06-19 19:43:54 [DEBUG] Slf4jLogger.java:72 com.wxiang.srb.sms.client.CoreUserInfoClient [CoreUserInfoClient#checkMobileExist] connection: keep-alive
+2022-06-19 19:43:54 [DEBUG] Slf4jLogger.java:72 com.wxiang.srb.sms.client.CoreUserInfoClient [CoreUserInfoClient#checkMobileExist] content-type: application/json

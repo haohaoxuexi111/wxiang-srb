@@ -1,0 +1,38 @@
+2022-06-20 21:24:20,004 INFO SPI service [com.alipay.sofa.jraft.JRaftServiceFactory - com.alipay.sofa.jraft.core.DefaultJRaftServiceFactory] loading.
+
+2022-06-20 21:24:20,258 INFO SPI service [com.alipay.sofa.jraft.rpc.RaftRpcFactory - com.alipay.sofa.jraft.rpc.impl.GrpcRaftRpcFactory] loading.
+
+2022-06-20 21:24:25,163 INFO SPI service [com.alipay.sofa.jraft.util.timer.RaftTimerFactory - com.alipay.sofa.jraft.util.timer.DefaultRaftTimerFactory] loading.
+
+2022-06-20 21:24:25,172 INFO The number of active nodes increment to 1.
+
+2022-06-20 21:24:25,666 INFO Starts FSMCaller successfully.
+
+2022-06-20 21:24:25,701 INFO Loading snapshot, meta=last_included_index: 4
+last_included_term: 2
+peers: "192.168.74.1:7848"
+.
+
+2022-06-20 21:24:25,834 INFO Node <naming_persistent_service/192.168.74.1:7848> onSnapshotLoadDone, last_included_index: 4
+last_included_term: 2
+peers: "192.168.74.1:7848"
+
+
+2022-06-20 21:24:25,836 INFO Node <naming_persistent_service/192.168.74.1:7848> target priority value has changed from: 0, to: -1.
+
+2022-06-20 21:24:25,884 INFO Node <naming_persistent_service/192.168.74.1:7848> init, term=2, lastLogId=LogId [index=4, term=2], conf=192.168.74.1:7848, oldConf=.
+
+2022-06-20 21:24:25,888 INFO Node <naming_persistent_service/192.168.74.1:7848> start vote and grant vote self, term=2.
+
+2022-06-20 21:24:25,911 INFO Save raft meta, path=C:\Users\Xiangtai\IdeaProjects\wxiang-srb\nacos\data\protocol\raft\naming_persistent_service\meta-data, term=3, votedFor=192.168.74.1:7848, cost time=20 ms
+
+2022-06-20 21:24:25,912 INFO Node <naming_persistent_service/192.168.74.1:7848> become leader of group, term=3, conf=192.168.74.1:7848, oldConf=.
+
+2022-06-20 21:24:25,918 INFO -Djraft.recyclers.maxCapacityPerThread: 4096.
+
+2022-06-20 21:24:25,923 WARN RPC server is not started in RaftGroupService.
+
+2022-06-20 21:24:25,923 INFO Start the RaftGroupService successfully.
+
+2022-06-20 21:24:25,937 INFO onLeaderStart: term=3.
+

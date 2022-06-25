@@ -1,0 +1,8 @@
+nocos启动命令：在nacos/bin目录下执行  startup.cmd -m standalone
+
+nginx启动命令：start nginx.exe
+nginx重新检查配置文件：nginx -t
+nginx进程关闭命令：taskkill /im nginx.exe /f
+
+
+

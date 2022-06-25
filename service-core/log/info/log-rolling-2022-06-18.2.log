@@ -1,0 +1,6 @@
+2022-06-18 16:20:17 [INFO ] StartupInfoLogger.java:61 com.wxiang.srb.core.ServiceCoreApplication Started ServiceCoreApplication in 8.808 seconds (JVM running for 11.204)
+2022-06-18 16:30:09 [INFO ] DictServiceImpl.java:89 com.wxiang.srb.core.service.impl.DictServiceImpl 从数据库中查询数据列表
+2022-06-18 16:30:09 [INFO ] DictServiceImpl.java:102 com.wxiang.srb.core.service.impl.DictServiceImpl 将数据库中查询到的数据存入Redis
+2022-06-18 16:30:47 [INFO ] DictServiceImpl.java:81 com.wxiang.srb.core.service.impl.DictServiceImpl 从Redis中获取的数据列表
+2022-06-18 16:41:34 [INFO ] StartupInfoLogger.java:55 com.wxiang.srb.core.ServiceCoreApplication Starting ServiceCoreApplication using Java 1.8.0_201 on LAPTOP-P5DVF2MH with PID 11456 (C:\Users\Xiangtai\IdeaProjects\wxiang-srb\service-core\target\classes started by Xiangtai in C:\Users\Xiangtai\IdeaProjects\wxiang-srb)
+2022-06-18 16:41:34 [INFO ] SpringApplication.java:663 com.wxiang.srb.core.ServiceCoreApplication The following profiles are active: dev

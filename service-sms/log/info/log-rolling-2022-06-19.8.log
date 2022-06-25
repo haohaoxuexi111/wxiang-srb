@@ -1,0 +1,8 @@
+2022-06-19 20:08:36 [ERROR] CoreUserInfoClientFallback.java:12 com.wxiang.srb.sms.client.fallback.CoreUserInfoClientFallback 远程调用失败，服务熔断！！！
+2022-06-19 21:10:01 [INFO ] SpringApplication.java:655 com.wxiang.srb.sms.ServiceSmsApplication The following profiles are active: dev
+2022-06-19 21:10:12 [INFO ] StartupInfoLogger.java:61 com.wxiang.srb.sms.ServiceSmsApplication Started ServiceSmsApplication in 18.42 seconds (JVM running for 22.49)
+2022-06-19 21:11:29 [DEBUG] Slf4jLogger.java:72 com.wxiang.srb.sms.client.CoreUserInfoClient [CoreUserInfoClient#checkMobileExist] ---> GET http://service-core/api/core/userInfo/checkMobile/13766816638 HTTP/1.1
+2022-06-19 21:11:29 [DEBUG] Slf4jLogger.java:72 com.wxiang.srb.sms.client.CoreUserInfoClient [CoreUserInfoClient#checkMobileExist] ---> END HTTP (0-byte body)
+2022-06-19 21:11:31 [DEBUG] Slf4jLogger.java:72 com.wxiang.srb.sms.client.CoreUserInfoClient [CoreUserInfoClient#checkMobileExist] <--- HTTP/1.1 200 (1799ms)
+2022-06-19 21:11:31 [DEBUG] Slf4jLogger.java:72 com.wxiang.srb.sms.client.CoreUserInfoClient [CoreUserInfoClient#checkMobileExist] connection: keep-alive
+2022-06-19 21:11:31 [DEBUG] Slf4jLogger.java:72 com.wxiang.srb.sms.client.CoreUserInfoClient [CoreUserInfoClient#checkMobileExist] content-type: application/json

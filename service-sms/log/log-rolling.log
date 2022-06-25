@@ -1,0 +1,6 @@
+2022-06-19 21:11:31 [DEBUG] Slf4jLogger.java:72 com.wxiang.srb.sms.client.CoreUserInfoClient [CoreUserInfoClient#checkMobileExist] date: Sun, 19 Jun 2022 13:11:31 GMT
+2022-06-19 21:11:31 [DEBUG] Slf4jLogger.java:72 com.wxiang.srb.sms.client.CoreUserInfoClient [CoreUserInfoClient#checkMobileExist] keep-alive: timeout=60
+2022-06-19 21:11:31 [DEBUG] Slf4jLogger.java:72 com.wxiang.srb.sms.client.CoreUserInfoClient [CoreUserInfoClient#checkMobileExist] transfer-encoding: chunked
+2022-06-19 21:11:31 [DEBUG] Slf4jLogger.java:72 com.wxiang.srb.sms.client.CoreUserInfoClient [CoreUserInfoClient#checkMobileExist] 
+2022-06-19 21:11:31 [DEBUG] Slf4jLogger.java:72 com.wxiang.srb.sms.client.CoreUserInfoClient [CoreUserInfoClient#checkMobileExist] false
+2022-06-19 21:11:31 [DEBUG] Slf4jLogger.java:72 com.wxiang.srb.sms.client.CoreUserInfoClient [CoreUserInfoClient#checkMobileExist] <--- END HTTP (5-byte body)

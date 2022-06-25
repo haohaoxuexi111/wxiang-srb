@@ -1,0 +1,9 @@
+2022-06-19 20:23:23 [INFO ] StartupInfoLogger.java:61 com.wxiang.srb.core.ServiceCoreApplication Started ServiceCoreApplication in 24.242 seconds (JVM running for 27.427)
+2022-06-19 21:04:52 [INFO ] SpringApplication.java:655 com.wxiang.srb.core.ServiceCoreApplication The following profiles are active: dev
+2022-06-19 21:05:05 [INFO ] StartupInfoLogger.java:61 com.wxiang.srb.core.ServiceCoreApplication Started ServiceCoreApplication in 17.498 seconds (JVM running for 20.059)
+2022-06-19 21:06:30 [INFO ] AdminIntegralGradeController.java:41 com.wxiang.srb.core.controller.admin.AdminIntegralGradeController hello, this is info level
+2022-06-19 21:06:30 [WARN ] AdminIntegralGradeController.java:42 com.wxiang.srb.core.controller.admin.AdminIntegralGradeController hello, this is warn level
+2022-06-19 21:06:30 [ERROR] AdminIntegralGradeController.java:43 com.wxiang.srb.core.controller.admin.AdminIntegralGradeController hello, this is error level
+2022-06-19 21:06:38 [INFO ] DictServiceImpl.java:89 com.wxiang.srb.core.service.impl.DictServiceImpl 从数据库中查询数据列表
+2022-06-19 21:06:38 [INFO ] DictServiceImpl.java:102 com.wxiang.srb.core.service.impl.DictServiceImpl 将数据库中查询到的数据存入Redis
+2022-06-19 21:09:34 [INFO ] SpringApplication.java:655 com.wxiang.srb.core.ServiceCoreApplication The following profiles are active: dev

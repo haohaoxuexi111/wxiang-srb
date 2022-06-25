@@ -1,0 +1,21 @@
+server:
+  port: 8130
+
+spring:
+  profiles:
+    active: dev
+  application:
+    name: service-oss  # 服务名
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848 # nacos服务地址
+
+
+# 这里使用的是阿里云主账户的 keyId kdySecret
+aliyun:
+  oss:
+    endpoint: oss-cn-shenzhen.aliyuncs.com
+    keyId: LTAI5tMXjuno5E1GT3ppDAWP
+    keySecret: ua1MCX3VQZCBeP9yPY8sgXkWAFVSOm
+    bucketName: oss-srb-space-1

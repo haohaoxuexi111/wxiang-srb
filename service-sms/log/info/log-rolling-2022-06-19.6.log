@@ -1,0 +1,6 @@
+2022-06-19 20:05:01 [INFO ] StartupInfoLogger.java:61 com.wxiang.srb.sms.ServiceSmsApplication Started ServiceSmsApplication in 20.385 seconds (JVM running for 23.506)
+2022-06-19 20:07:40 [INFO ] SpringApplication.java:655 com.wxiang.srb.sms.ServiceSmsApplication The following profiles are active: dev
+2022-06-19 20:07:55 [INFO ] StartupInfoLogger.java:61 com.wxiang.srb.sms.ServiceSmsApplication Started ServiceSmsApplication in 21.305 seconds (JVM running for 24.562)
+2022-06-19 20:08:32 [DEBUG] Slf4jLogger.java:72 com.wxiang.srb.sms.client.CoreUserInfoClient [CoreUserInfoClient#checkMobileExist] ---> GET http://service-core/api/core/userInfo/checkMobile/13766816630 HTTP/1.1
+2022-06-19 20:08:32 [DEBUG] Slf4jLogger.java:72 com.wxiang.srb.sms.client.CoreUserInfoClient [CoreUserInfoClient#checkMobileExist] ---> END HTTP (0-byte body)
+2022-06-19 20:08:36 [DEBUG] Slf4jLogger.java:72 com.wxiang.srb.sms.client.CoreUserInfoClient [CoreUserInfoClient#checkMobileExist] <--- ERROR ConnectException: Connection refused: connect (3785ms)

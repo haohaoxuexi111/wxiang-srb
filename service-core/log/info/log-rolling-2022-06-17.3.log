@@ -1,0 +1,7 @@
+2022-06-17 17:17:48 [INFO ] StartupInfoLogger.java:61 com.wxiang.srb.core.ServiceCoreApplication Started ServiceCoreApplication in 8.951 seconds (JVM running for 10.833)
+2022-06-17 19:31:13 [INFO ] DictServiceImpl.java:89 com.wxiang.srb.core.service.impl.DictServiceImpl 从数据库中查询数据列表
+2022-06-17 19:31:15 [INFO ] DictServiceImpl.java:102 com.wxiang.srb.core.service.impl.DictServiceImpl 将数据库中查询到的数据存入Redis
+2022-06-17 19:31:17 [INFO ] AdminIntegralGradeController.java:41 com.wxiang.srb.core.controller.admin.AdminIntegralGradeController hello, this is info level
+2022-06-17 19:31:17 [WARN ] AdminIntegralGradeController.java:42 com.wxiang.srb.core.controller.admin.AdminIntegralGradeController hello, this is warn level
+2022-06-17 19:31:17 [ERROR] AdminIntegralGradeController.java:43 com.wxiang.srb.core.controller.admin.AdminIntegralGradeController hello, this is error level
+2022-06-17 19:31:20 [INFO ] DictServiceImpl.java:81 com.wxiang.srb.core.service.impl.DictServiceImpl 从Redis中获取的数据列表

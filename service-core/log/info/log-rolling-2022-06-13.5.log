@@ -1,0 +1,4 @@
+2022-06-13 21:58:32 [INFO ] StartupInfoLogger.java:61 com.wxiang.srb.core.ServiceCoreApplication Started ServiceCoreApplication in 8.049 seconds (JVM running for 9.691)
+2022-06-13 21:59:05 [INFO ] AdminIntegralGradeController.java:41 com.wxiang.srb.core.controller.admin.AdminIntegralGradeController hello, this is info level
+2022-06-13 21:59:05 [WARN ] AdminIntegralGradeController.java:42 com.wxiang.srb.core.controller.admin.AdminIntegralGradeController hello, this is warn level
+2022-06-13 21:59:05 [ERROR] AdminIntegralGradeController.java:43 com.wxiang.srb.core.controller.admin.AdminIntegralGradeController hello, this is error level
