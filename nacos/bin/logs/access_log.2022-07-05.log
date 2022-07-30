@@ -1,0 +1,2 @@
+127.0.0.1 - - [05/Jul/2022:15:39:25 +0800] "GET /nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=public&clientIP=192.168.200.1&serviceName=DEFAULT_GROUP%40%40service-gateway&udpPort=58514&clusters=DEFAULT HTTP/1.1" 200 104 113 Nacos-Java-Client:v1.3.2 -
+127.0.0.1 - - [05/Jul/2022:15:39:25 +0800] "PUT /nacos/v1/ns/instance/beat?app=unknown&serviceName=DEFAULT_GROUP%40%40service-gateway&namespaceId=public&port=80&clusterName=DEFAULT&ip=192.168.74.1 HTTP/1.1" 200 75 417 Nacos-Java-Client:v1.3.2 -

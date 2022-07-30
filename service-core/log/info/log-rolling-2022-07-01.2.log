@@ -1,0 +1,9 @@
+2022-07-01 19:45:52 [INFO ] DictServiceImpl.java:89 com.wxiang.srb.core.service.impl.DictServiceImpl 从数据库中查询数据列表
+2022-07-01 19:45:52 [INFO ] DictServiceImpl.java:102 com.wxiang.srb.core.service.impl.DictServiceImpl 将数据库中查询到的数据存入Redis
+2022-07-01 20:22:10 [INFO ] DictServiceImpl.java:89 com.wxiang.srb.core.service.impl.DictServiceImpl 从数据库中查询数据列表
+2022-07-01 20:22:10 [INFO ] DictServiceImpl.java:102 com.wxiang.srb.core.service.impl.DictServiceImpl 将数据库中查询到的数据存入Redis
+2022-07-01 20:22:12 [INFO ] DictServiceImpl.java:81 com.wxiang.srb.core.service.impl.DictServiceImpl 从Redis中获取的数据列表
+2022-07-01 20:22:13 [INFO ] DictServiceImpl.java:81 com.wxiang.srb.core.service.impl.DictServiceImpl 从Redis中获取的数据列表
+2022-07-01 20:27:32 [INFO ] DictServiceImpl.java:89 com.wxiang.srb.core.service.impl.DictServiceImpl 从数据库中查询数据列表
+2022-07-01 20:27:32 [INFO ] DictServiceImpl.java:89 com.wxiang.srb.core.service.impl.DictServiceImpl 从数据库中查询数据列表
+2022-07-01 20:27:32 [INFO ] DictServiceImpl.java:89 com.wxiang.srb.core.service.impl.DictServiceImpl 从数据库中查询数据列表

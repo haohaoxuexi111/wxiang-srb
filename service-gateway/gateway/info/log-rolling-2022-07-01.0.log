@@ -1,0 +1,8 @@
+2022-06-22 14:56:14 [INFO ] StartupInfoLogger.java:61 com.wxiang.srb.gateway.ServiceGatewayApplication Started ServiceGatewayApplication in 31.487 seconds (JVM running for 34.101)
+2022-06-23 20:01:31 [INFO ] SpringApplication.java:655 com.wxiang.srb.gateway.ServiceGatewayApplication The following profiles are active: dev
+2022-06-23 20:01:57 [INFO ] StartupInfoLogger.java:61 com.wxiang.srb.gateway.ServiceGatewayApplication Started ServiceGatewayApplication in 32.345 seconds (JVM running for 35.754)
+2022-06-27 09:20:00 [INFO ] SpringApplication.java:655 com.wxiang.srb.gateway.ServiceGatewayApplication The following profiles are active: dev
+2022-06-27 09:20:31 [INFO ] StartupInfoLogger.java:61 com.wxiang.srb.gateway.ServiceGatewayApplication Started ServiceGatewayApplication in 36.271 seconds (JVM running for 39.197)
+2022-06-30 16:14:38 [INFO ] SpringApplication.java:655 com.wxiang.srb.gateway.ServiceGatewayApplication The following profiles are active: dev
+2022-06-30 16:15:10 [INFO ] StartupInfoLogger.java:61 com.wxiang.srb.gateway.ServiceGatewayApplication Started ServiceGatewayApplication in 37.446 seconds (JVM running for 40.53)
+2022-07-01 16:49:43 [INFO ] SpringApplication.java:655 com.wxiang.srb.gateway.ServiceGatewayApplication The following profiles are active: dev

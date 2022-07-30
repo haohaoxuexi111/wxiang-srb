@@ -1,0 +1,8 @@
+2022-06-30 21:04:27 [INFO ] StartupInfoLogger.java:61 com.wxiang.srb.oss.ServiceOssApplication Started ServiceOssApplication in 15.277 seconds (JVM running for 18.989)
+2022-07-01 17:14:14 [INFO ] SpringApplication.java:655 com.wxiang.srb.oss.ServiceOssApplication The following profiles are active: dev
+2022-07-01 17:14:24 [INFO ] StartupInfoLogger.java:61 com.wxiang.srb.oss.ServiceOssApplication Started ServiceOssApplication in 14.815 seconds (JVM running for 17.333)
+2022-07-03 16:35:40 [INFO ] SpringApplication.java:655 com.wxiang.srb.oss.ServiceOssApplication The following profiles are active: dev
+2022-07-03 16:35:50 [INFO ] StartupInfoLogger.java:61 com.wxiang.srb.oss.ServiceOssApplication Started ServiceOssApplication in 15.164 seconds (JVM running for 17.739)
+2022-07-04 15:52:47 [INFO ] SpringApplication.java:655 com.wxiang.srb.oss.ServiceOssApplication The following profiles are active: dev
+2022-07-04 15:53:02 [INFO ] StartupInfoLogger.java:61 com.wxiang.srb.oss.ServiceOssApplication Started ServiceOssApplication in 21.22 seconds (JVM running for 25.911)
+2022-07-05 16:18:50 [INFO ] SpringApplication.java:655 com.wxiang.srb.oss.ServiceOssApplication The following profiles are active: dev

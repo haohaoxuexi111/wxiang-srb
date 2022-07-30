@@ -1,0 +1,9 @@
+2022-07-02 20:04:17 [INFO ] DictServiceImpl.java:81 com.wxiang.srb.core.service.impl.DictServiceImpl 从Redis中获取的数据列表
+2022-07-02 20:04:17 [INFO ] DictServiceImpl.java:81 com.wxiang.srb.core.service.impl.DictServiceImpl 从Redis中获取的数据列表
+2022-07-02 20:04:17 [INFO ] DictServiceImpl.java:81 com.wxiang.srb.core.service.impl.DictServiceImpl 从Redis中获取的数据列表
+2022-07-02 20:04:18 [INFO ] DictServiceImpl.java:81 com.wxiang.srb.core.service.impl.DictServiceImpl 从Redis中获取的数据列表
+2022-07-02 20:04:18 [INFO ] DictServiceImpl.java:81 com.wxiang.srb.core.service.impl.DictServiceImpl 从Redis中获取的数据列表
+2022-07-02 20:04:18 [INFO ] DictServiceImpl.java:81 com.wxiang.srb.core.service.impl.DictServiceImpl 从Redis中获取的数据列表
+2022-07-02 20:04:18 [INFO ] DictServiceImpl.java:81 com.wxiang.srb.core.service.impl.DictServiceImpl 从Redis中获取的数据列表
+2022-07-02 20:04:18 [INFO ] DictServiceImpl.java:81 com.wxiang.srb.core.service.impl.DictServiceImpl 从Redis中获取的数据列表
+2022-07-02 20:04:33 [INFO ] SpringApplication.java:655 com.wxiang.srb.core.ServiceCoreApplication The following profiles are active: dev
