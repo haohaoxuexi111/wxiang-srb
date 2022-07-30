@@ -11,11 +11,16 @@ spring:
       discovery:
         server-addr: localhost:8848 # nacos服务地址
 
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
+
 
 # 这里使用的是阿里云主账户的 keyId kdySecret
 aliyun:
   oss:
     endpoint: oss-cn-shenzhen.aliyuncs.com
-    keyId: LTAI5tMXjuno5E1GT3ppDAWP
-    keySecret: ua1MCX3VQZCBeP9yPY8sgXkWAFVSOm
+    keyId: LTAI5tJDkSwBjYS46yKdRtLr
+    keySecret: bMMOXM95vXEMYWSSMGGOSQvFk2RL1p
     bucketName: oss-srb-space-1

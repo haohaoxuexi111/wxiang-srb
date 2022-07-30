@@ -108,6 +108,34 @@ public class DictServiceImpl extends ServiceImpl<DictMapper, Dict> implements Di
         return dictList;
     }
 
+    @Override
+    public List<Dict> findByDictCode(String dictCode) {
+        QueryWrapper<Dict> dictQueryWrapper = new QueryWrapper<>();
+        dictQueryWrapper.eq("dict_code", dictCode);
+        Dict dict = baseMapper.selectOne(dictQueryWrapper);
+        return this.listByParentId(dict.getId());  // 通过父节点id查找下级子节点
+    }
+
+    // 根据dict表中的dict_code和value确定条目名称
+    @Override
+    public String getNameByParentDictCodeAndValue(String dictCode, Integer value) {
+        QueryWrapper<Dict> dictQueryWrapper = new QueryWrapper<>();
+        dictQueryWrapper.eq("dict_code", dictCode);
+        Dict parentDict = baseMapper.selectOne(dictQueryWrapper);
+        if (parentDict == null) {
+            return "";
+        }
+        dictQueryWrapper = new QueryWrapper<>();
+        dictQueryWrapper
+                .eq("parent_id", parentDict.getId())
+                .eq("value", value);
+        Dict dict = baseMapper.selectOne(dictQueryWrapper);
+        if (dict == null) {
+            return "";
+        }
+        return dict.getName();
+    }
+
     // 判断当前id所在的节点下(类别)是否有子节点(条目)
     private boolean hasChildren(Long id) {
         QueryWrapper<Dict> dictQueryWrapper = new QueryWrapper<>();

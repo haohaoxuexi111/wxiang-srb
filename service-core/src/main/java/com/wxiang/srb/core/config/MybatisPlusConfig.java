@@ -10,7 +10,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 @Configuration
 @MapperScan("com.wxiang.srb.core.mapper")
-@EnableTransactionManagement  // 事务处理
+@EnableTransactionManagement  // 开启事务处理
 public class MybatisPlusConfig {
     @Bean
     public MybatisPlusInterceptor mybatisPlusInterceptor() {

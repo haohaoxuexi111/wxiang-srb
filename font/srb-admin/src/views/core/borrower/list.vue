@@ -62,7 +62,7 @@
 
       <el-table-column label="操作" width="200" align="center">
         <template slot-scope="scope">
-          <router-link :to="'/core/borrower/detail' + scope.row.id">
+          <router-link :to="'/core/borrower/detail/' + scope.row.id">
             <el-button v-if="scope.row.status === 1" type="warning" size="mini">
               审批
             </el-button>

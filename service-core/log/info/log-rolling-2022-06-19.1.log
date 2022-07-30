@@ -1,8 +1,0 @@
-2022-06-19 16:00:12 [INFO ] StartupInfoLogger.java:61 com.wxiang.srb.core.ServiceCoreApplication Started ServiceCoreApplication in 8.485 seconds (JVM running for 10.885)
-2022-06-19 16:22:42 [INFO ] SpringApplication.java:655 com.wxiang.srb.core.ServiceCoreApplication The following profiles are active: dev
-2022-06-19 16:23:01 [INFO ] StartupInfoLogger.java:61 com.wxiang.srb.core.ServiceCoreApplication Started ServiceCoreApplication in 24.552 seconds (JVM running for 27.762)
-2022-06-19 16:43:33 [INFO ] SpringApplication.java:655 com.wxiang.srb.core.ServiceCoreApplication The following profiles are active: dev
-2022-06-19 16:43:51 [INFO ] StartupInfoLogger.java:61 com.wxiang.srb.core.ServiceCoreApplication Started ServiceCoreApplication in 25.568 seconds (JVM running for 28.689)
-2022-06-19 17:02:11 [INFO ] SpringApplication.java:655 com.wxiang.srb.core.ServiceCoreApplication The following profiles are active: dev
-2022-06-19 17:02:32 [INFO ] StartupInfoLogger.java:61 com.wxiang.srb.core.ServiceCoreApplication Started ServiceCoreApplication in 27.593 seconds (JVM running for 31.237)
-2022-06-19 20:23:05 [INFO ] SpringApplication.java:655 com.wxiang.srb.core.ServiceCoreApplication The following profiles are active: dev

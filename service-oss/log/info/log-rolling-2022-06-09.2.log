@@ -1,6 +1,0 @@
-2022-06-09 20:57:13 [INFO ] StartupInfoLogger.java:61 com.wxiang.srb.oss.ServiceOssApplication Started ServiceOssApplication in 5.458 seconds (JVM running for 7.387)
-2022-06-09 21:03:48 [INFO ] StartupInfoLogger.java:55 com.wxiang.srb.oss.ServiceOssApplication Starting ServiceOssApplication using Java 1.8.0_201 on LAPTOP-P5DVF2MH with PID 43096 (C:\Users\Xiangtai\IdeaProjects\wxiang-srb\service-oss\target\classes started by Xiangtai in C:\Users\Xiangtai\IdeaProjects\wxiang-srb)
-2022-06-09 21:03:48 [INFO ] SpringApplication.java:663 com.wxiang.srb.oss.ServiceOssApplication The following profiles are active: dev
-2022-06-09 21:03:52 [INFO ] StartupInfoLogger.java:61 com.wxiang.srb.oss.ServiceOssApplication Started ServiceOssApplication in 4.873 seconds (JVM running for 6.752)
-2022-06-09 21:07:32 [INFO ] StartupInfoLogger.java:55 com.wxiang.srb.oss.ServiceOssApplication Starting ServiceOssApplication using Java 1.8.0_201 on LAPTOP-P5DVF2MH with PID 42768 (C:\Users\Xiangtai\IdeaProjects\wxiang-srb\service-oss\target\classes started by Xiangtai in C:\Users\Xiangtai\IdeaProjects\wxiang-srb)
-2022-06-09 21:07:32 [INFO ] SpringApplication.java:663 com.wxiang.srb.oss.ServiceOssApplication The following profiles are active: dev

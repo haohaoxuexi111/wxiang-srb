@@ -1,6 +1,0 @@
-2022-06-21 19:56:31 [INFO ] RequestHelper.java:41 com.wxiang.srb.core.hfb.RequestHelper 加密后：f39d5e71b7e8a040f5ea1ca141279cf4
-2022-06-21 19:57:49 [INFO ] RequestHelper.java:39 com.wxiang.srb.core.hfb.RequestHelper 加密前：999888|12|6237882165478452105|建设银行|360732199912301111|13766816630|http://localhost/api/core/userBind/notify|张三|http://localhost:3000/user|1655812669771|9876543210
-2022-06-21 19:57:49 [INFO ] RequestHelper.java:41 com.wxiang.srb.core.hfb.RequestHelper 加密后：736d4d6ff4108f7a89085f89bbbb38db
-2022-06-21 19:59:55 [INFO ] SpringApplication.java:655 com.wxiang.srb.core.ServiceCoreApplication The following profiles are active: dev
-2022-06-21 20:00:08 [INFO ] StartupInfoLogger.java:61 com.wxiang.srb.core.ServiceCoreApplication Started ServiceCoreApplication in 18.118 seconds (JVM running for 20.249)
-2022-06-21 20:02:36 [INFO ] RequestHelper.java:39 com.wxiang.srb.core.hfb.RequestHelper 加密前：999888|12|6217854126321482105|建设银行|360733124874102548|13766816630|http://localhost/api/core/userBind/notify|张三|http://localhost:3000/user|1655812956380|9876543210

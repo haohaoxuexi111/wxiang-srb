@@ -80,7 +80,7 @@ public class UserInfoServiceImpl extends ServiceImpl<UserInfoMapper, UserInfo> i
      * @param ip
      * @return
      */
-    @Transactional(rollbackFor = Exception.class)  // 相当于TransactionDefinition
+    @Transactional(rollbackFor = Exception.class)  // 相当于TransactionDefinition，rollbackFor = Exception.class表示遇到何种异常时回滚事务
     @Override
     public UserInfoVO login(LoginVO loginVO, String ip) {
 

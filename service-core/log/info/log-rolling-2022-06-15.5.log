@@ -1,6 +1,0 @@
-2022-06-15 15:59:34 [INFO ] StartupInfoLogger.java:61 com.wxiang.srb.core.ServiceCoreApplication Started ServiceCoreApplication in 7.702 seconds (JVM running for 9.661)
-2022-06-15 16:05:26 [INFO ] StartupInfoLogger.java:55 com.wxiang.srb.core.ServiceCoreApplication Starting ServiceCoreApplication using Java 1.8.0_201 on LAPTOP-P5DVF2MH with PID 79796 (C:\Users\Xiangtai\IdeaProjects\wxiang-srb\service-core\target\classes started by Xiangtai in C:\Users\Xiangtai\IdeaProjects\wxiang-srb)
-2022-06-15 16:05:26 [INFO ] SpringApplication.java:663 com.wxiang.srb.core.ServiceCoreApplication The following profiles are active: dev
-2022-06-15 16:05:34 [INFO ] StartupInfoLogger.java:61 com.wxiang.srb.core.ServiceCoreApplication Started ServiceCoreApplication in 8.921 seconds (JVM running for 10.972)
-2022-06-15 16:07:30 [INFO ] StartupInfoLogger.java:55 com.wxiang.srb.core.ServiceCoreApplication Starting ServiceCoreApplication using Java 1.8.0_201 on LAPTOP-P5DVF2MH with PID 59488 (C:\Users\Xiangtai\IdeaProjects\wxiang-srb\service-core\target\classes started by Xiangtai in C:\Users\Xiangtai\IdeaProjects\wxiang-srb)
-2022-06-15 16:07:30 [INFO ] SpringApplication.java:663 com.wxiang.srb.core.ServiceCoreApplication The following profiles are active: dev

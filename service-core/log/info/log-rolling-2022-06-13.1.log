@@ -1,6 +1,0 @@
-2022-06-13 16:40:41 [WARN ] AdminIntegralGradeController.java:42 com.wxiang.srb.core.controller.admin.AdminIntegralGradeController hello, this is warn level
-2022-06-13 16:40:41 [ERROR] AdminIntegralGradeController.java:43 com.wxiang.srb.core.controller.admin.AdminIntegralGradeController hello, this is error level
-2022-06-13 19:32:13 [INFO ] StartupInfoLogger.java:55 com.wxiang.srb.core.ServiceCoreApplication Starting ServiceCoreApplication using Java 1.8.0_201 on LAPTOP-P5DVF2MH with PID 66000 (C:\Users\Xiangtai\IdeaProjects\wxiang-srb\service-core\target\classes started by Xiangtai in C:\Users\Xiangtai\IdeaProjects\wxiang-srb)
-2022-06-13 19:32:13 [INFO ] SpringApplication.java:663 com.wxiang.srb.core.ServiceCoreApplication The following profiles are active: dev
-2022-06-13 19:32:21 [INFO ] StartupInfoLogger.java:61 com.wxiang.srb.core.ServiceCoreApplication Started ServiceCoreApplication in 9.699 seconds (JVM running for 12.109)
-2022-06-13 19:34:37 [INFO ] DictServiceImpl.java:89 com.wxiang.srb.core.service.impl.DictServiceImpl 从数据库中查询数据列表
